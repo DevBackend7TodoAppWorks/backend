@@ -1,0 +1,25 @@
+# Environement files
+.env
+.env.*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*/__pycache__/*
+*/*/__pycache__/*
+*/*/*/__pycache__/*
+*/*/*/*/__pycache__/*
+
+static/medias/*
+static/staticfiles/*
+*.sqlite3
+celerybeat-schedule
+
+# Temps Remove
+.gitlab-ci.yml
+logs/app.log
